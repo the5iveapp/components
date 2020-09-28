@@ -1,0 +1,34 @@
+{
+  "name": "box",
+  "version": "0.0.0",
+  "description": "Box Components",
+  "keywords": [
+    "box",
+    "block"
+  ],
+  "author": "isamrish <askmaurya48@gmail.com>",
+  "homepage": "https://github.com/the5iveapp/components#readme",
+  "license": "MIT",
+  "main": "lib/box.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the5iveapp/components.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/the5iveapp/components/issues"
+  },
+  "dependencies": {
+    "styled-components": "^5.2.0",
+    "styled-system": "^5.1.5"
+  }
+}
