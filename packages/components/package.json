@@ -1,23 +1,26 @@
 {
-  "name": "button",
+  "name": "@the5ive/components",
   "version": "0.0.0",
-  "description": "Button Components",
+  "description": "Components",
   "keywords": [
-    "button",
-    "btn",
-    "the5iveapp"
+    "reactjs",
+    "components"
   ],
   "author": "isamrish <askmaurya48@gmail.com>",
   "homepage": "https://github.com/the5iveapp/components#readme",
   "license": "MIT",
-  "main": "lib/button.js",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/the5iveapp/components.git"
@@ -29,7 +32,8 @@
     "url": "https://github.com/the5iveapp/components/issues"
   },
   "dependencies": {
-    "styled-components": "^5.2.0",
-    "styled-system": "^5.1.5"
+    "@the5ive/tokens": "^0.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

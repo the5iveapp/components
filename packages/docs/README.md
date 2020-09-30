@@ -1,11 +1,11 @@
-# `box`
+# `docs`
 
 > TODO: description
 
 ## Usage
 
 ```
-const box = require('box');
+import docs from 'docs';
 
 // TODO: DEMONSTRATE API
 ```

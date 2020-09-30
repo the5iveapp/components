@@ -1,11 +1,11 @@
-# `button`
+# `@the5ive/tokens`
 
 > TODO: description
 
 ## Usage
 
 ```
-const button = require('button');
+import tokens from '@the5ive/tokens';
 
 // TODO: DEMONSTRATE API
 ```

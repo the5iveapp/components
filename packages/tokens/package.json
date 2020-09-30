@@ -1,22 +1,25 @@
 {
-  "name": "box",
+  "name": "@the5ive/tokens",
   "version": "0.0.0",
-  "description": "Box Components",
+  "description": "tokens",
   "keywords": [
-    "box",
-    "block"
+    "tokens"
   ],
   "author": "isamrish <askmaurya48@gmail.com>",
   "homepage": "https://github.com/the5iveapp/components#readme",
   "license": "MIT",
-  "main": "lib/box.js",
+  "main": "dist/tokens.js",
+  "module": "dist/tokens.module.js",
   "directories": {
-    "lib": "lib",
+    "lib": "dist",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/the5iveapp/components.git"
@@ -28,7 +31,7 @@
     "url": "https://github.com/the5iveapp/components/issues"
   },
   "dependencies": {
-    "styled-components": "^5.2.0",
-    "styled-system": "^5.1.5"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }

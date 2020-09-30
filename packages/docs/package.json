@@ -1,0 +1,43 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "description": "documentation of components",
+  "keywords": [
+    "docs",
+    "documentation",
+    "components",
+    "documentation",
+    "the5iveapp",
+    "components",
+    "docs"
+  ],
+  "author": "isamrish <askmaurya48@gmail.com>",
+  "homepage": "https://github.com/the5iveapp/components#readme",
+  "license": "MIT",
+  "directories": {
+    "lib": "dist",
+    "test": "__tests__"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the5iveapp/components.git"
+  },
+  "scripts": {
+    "start": "yarn run docz:dev",
+    "docz:dev": "docz dev",
+    "build": "yarn run docz:build",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve",
+    "clean": "gatsby clean"
+  },
+  "bugs": {
+    "url": "https://github.com/the5iveapp/components/issues"
+  },
+  "dependencies": {
+    "docz": "^2.3.1",
+    "gatsby": "^2.24.66",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
